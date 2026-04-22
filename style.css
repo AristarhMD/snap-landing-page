@@ -147,6 +147,7 @@ body {
 }
 
 .content-logos {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,7 +163,7 @@ body {
 /* Nav hidden */
 .desk-nav {
   padding: var(--s-24);
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -258,13 +259,15 @@ body {
 
 .background {
   display: block;
-  position: absolute;
+  position: fixed;
   content: "";
   width: 100vw;
   height: 100vh;
   background-color: var(--c-g-9);
   opacity: 0.75;
   z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 .hidden {
