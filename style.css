@@ -148,6 +148,7 @@ body {
 
 .content-logos {
   width: 100%;
+  max-width: 20.56rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -317,13 +318,14 @@ body {
 
   .content-logos {
     width: clamp(29.84rem, 95%, 42.3rem);
+    max-width: unset;
     align-self: center;
     gap: var(--s-56);
     margin: 0;
   }
 
   .content-logos img {
-    /* width: 100%; */
+    width: 100%;
   }
 }
 
