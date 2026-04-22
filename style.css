@@ -55,6 +55,7 @@
 body {
   min-height: 100vh;
   background-color: var(--c-g-05);
+  overflow-x: hidden;
 }
 
 .contaier {
@@ -211,6 +212,7 @@ body {
 .company-context {
   display: flex;
   flex-direction: column;
+  visibility: visible;
   gap: var(--s-16);
   padding-left: var(--s-24);
   margin-top: var(--s-16);
@@ -270,6 +272,7 @@ body {
 }
 
 .nav-text .not-visible {
+  visibility: hidden;
   display: none;
 }
 
